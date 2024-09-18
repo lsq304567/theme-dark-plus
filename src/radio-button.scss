@@ -27,6 +27,8 @@
     cursor: pointer;
     transition: $--all-transition;
 
+    box-shadow: inset 0px 0px 5px mix($--color-dark,$--border-color-base, 40%);
+
     @include button-size($--button-padding-vertical, $--button-padding-horizontal, $--button-font-size, 0);
 
     &:hover {

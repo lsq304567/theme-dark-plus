@@ -169,6 +169,7 @@
     display: inline-block;
     box-sizing: border-box;
 
+    box-shadow: inset 0px 0px 5px mix($--color-dark,$--border-color-base, 40%);
     &:hover {
       border-color: $--radio-input-border-color-hover;
     }

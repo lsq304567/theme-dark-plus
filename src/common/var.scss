@@ -23,6 +23,8 @@ $--color-white: #FFFFFF !default;
 $--color-dark: #062254 !default;//#141414 !default;
 /// color|1|Background Color|4
 $--color-black: #000000 !default;
+$--color-value: #00FFE8 !default;
+
 $--color-primary-light-1: mix($--color-dark, $--color-primary, 10%) !default;
 /* 3c90e8 */
 $--color-primary-light-2: mix($--color-dark, $--color-primary, 20%) !default;
@@ -467,7 +469,7 @@ $--input-border-color: $--border-color-base !default;
 $--input-border-radius: $--border-radius-base !default;
 $--input-border-color-hover: $--border-color-hover !default;
 /// color||Color|0
-$--input-background-color: transparent !default;
+$--input-background-color: rgba(2,34,83,0.14) !default; //transparent !default;
 $--input-fill-disabled: $--disabled-fill-base !default;
 $--input-color-disabled: $--font-color-disabled-base !default;
 /// color||Color|0
@@ -499,6 +501,8 @@ $--input-small-height: 32px !default;
 $--input-mini-font-size: 12px !default;
 /// height||Other|4
 $--input-mini-height: 28px !default;
+
+$--input-box-shadow: inset 0px 0px 5px rgba(66, 244, 255, 0.40) !default;
 
 /* Cascader
 -------------------------- */
@@ -622,7 +626,6 @@ $--button-info-background-color: $--color-info !default;
 
 $--button-hover-tint-percent: 30% !default;
 $--button-active-shade-percent: 20% !default;
-
 
 /* cascader
 -------------------------- */
@@ -1018,7 +1021,7 @@ $--descriptions-header-margin-bottom: 20px !default;
 $--descriptions-title-font-size: 16px !default;
 $--descriptions-table-border: 1px solid $--border-color-lighter !default;
 $--descriptions-item-bordered-label-background: $--background-color-base !default;
-
+$--descriptions-content-color: $--color-value !default;
 /* Skeleton
 --------------------------*/
 $--skeleton-color: $--fill-color !default;

@@ -42,5 +42,6 @@
   @include e(content) {
     word-break: break-word;
     overflow-wrap: break-word;
+    color: $--descriptions-content-color;
   }
 }

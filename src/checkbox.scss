@@ -208,6 +208,8 @@
     transition: border-color .25s cubic-bezier(.71, -.46, .29, 1.46),
       background-color .25s cubic-bezier(.71, -.46, .29, 1.46);
 
+    box-shadow: inset 0px 0px 5px mix($--color-dark,$--border-color-base, 40%);
+
     &:hover {
       border-color: $--checkbox-input-border-color-hover;
     }
@@ -276,6 +278,8 @@
     margin: 0;
     position: relative;
     transition: $--all-transition;
+    //box-shadow: inset 0px 0px 5px mix($--color-dark,$--border-color-base, 40%);
+
     @include utils-user-select(none);
 
     @include button-size($--button-padding-vertical, $--button-padding-horizontal, $--button-font-size, 0);

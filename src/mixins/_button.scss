@@ -4,6 +4,7 @@
   color: $color;
   background: mix($--color-dark, $color, 90%);
   border-color: mix($--color-dark, $color, 60%);
+  box-shadow: inset 0px 0px 5px mix($--color-dark, $color, 40%);
 
   &:hover,
   &:focus {
