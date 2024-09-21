@@ -49,6 +49,7 @@
       </el-row>
 
       <el-row>
+        <el-button type="text" plain>文字</el-button>
         <el-button type="text">文字</el-button>
         <el-button type="text" disabled>文字</el-button>
       </el-row>

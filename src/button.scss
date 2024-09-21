@@ -41,6 +41,7 @@
     border-color: $--color-primary;
     background-color: $--color-primary-light-9;
     outline: none;
+
   }
 
   &::-moz-focus-inner {
@@ -60,6 +61,7 @@
       background: transparent;
       border-color: $--color-primary;
       color: $--color-primary;
+
     }
 
     &:active {
@@ -180,14 +182,15 @@
     border-color: transparent;
     color: $--color-primary;
     background: transparent;
-    padding-left: 10px;
-    padding-right: 10px;
+
+    padding: 0;
 
     &:hover,
     &:focus {
       color: $--color-primary-light-5;
       border-color: transparent;
       background-color: transparent;
+      padding: 2px;
     }
 
     &:active {

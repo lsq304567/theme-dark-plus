@@ -16,6 +16,7 @@
     </div>
 
     <div class="content">
+      <router-link to="/">shujd</router-link>
       <alert-example />
       <autocomplete-example />
       <avatar-example />
