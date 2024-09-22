@@ -11,7 +11,8 @@
   flex: 1;
   width: 100%;
   max-width: 100%;
-  background-color: transparent;
+  //background-color: transparent;
+  background: linear-gradient(0deg, rgba(18,58,136,0.4) 0%, rgba(18,58,136,0.2) 100%);
   font-size: 14px;
   color: $--table-font-color;
 
